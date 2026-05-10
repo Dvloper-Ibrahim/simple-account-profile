@@ -1,23 +1,59 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+    <!-- Character Encoding -->
     <meta charset="UTF-8" />
+    
+    <!-- Viewport & Compatibility -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Dashboard</title>
+    
+    <!-- Security Headers -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta http-equiv="X-Content-Type-Options" content="nosniff" />
+    <meta http-equiv="X-XSS-Protection" content="1; mode=block" />
+    <meta name="referrer" content="strict-origin-when-cross-origin" />
+    <meta name="permissions-policy" content="geolocation=(), microphone=(), camera=()" />
+    
+    <!-- Primary Meta Tags -->
+    <title>Elibrahimy | Home page</title>
+    <meta name="robots" content="index, follow">
+    <meta name="title" content="Elibrahimy | Home page" />
+    <meta name="description" content="Professional dashboard for managing projects, tasks, and team performance" />
+    <meta name="keywords" content="dashboard, projects, tasks, management" />
+    <meta name="author" content="Elibrahimy" />
+    
+    <!-- Theme & Branding -->
+    <meta name="theme-color" content="#1f2937" />
+    <link rel="icon" type="image/x-icon" href="imgs/favicon.ico" />
+    <link rel="apple-touch-icon" type="image/x-icon" href="imgs/favicon.ico" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:title" content="Elibrahimy | Home page" />
+    <meta property="og:url" content="https://simple-account-profile.vercel.app/" />
+    <meta property="og:type" content="website" />
+    <!-- <meta property="og:image" content="imgs/og-image.png" /> -->
+    <meta property="og:description" content="Professional dashboard for managing projects, tasks, and team performance" />
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://simple-account-profile.vercel.app/" />
+    
+    <!-- Font Optimization -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap"
       rel="stylesheet"
     />
+    
+    <!-- Stylesheets -->
     <link rel="stylesheet" href="css/all.min.css" />
     <link rel="stylesheet" href="css/my-framework.css" />
     <link rel="stylesheet" href="css/master.css" />
   </head>
   <body>
     <div class="page d-flex">
-      <div class="sidebar bg-white p-20 p-relative">
+      <aside class="sidebar bg-white p-20 p-relative">
         <h3 class="p-relative txt-c mt-0">Elibrahimy</h3>
         <ul>
           <li>
@@ -93,8 +129,8 @@
             </a>
           </li>
         </ul>
-      </div>
-      <div class="content w-full">
+      </aside>
+      <main class="content w-full">
         <!-- Start Head -->
         <div class="head bg-white p-15 between-flex">
           <div class="search p-relative">
@@ -108,7 +144,7 @@
             <span class="notification p-relative">
               <i class="fa-regular fa-bell fa-lg"></i>
             </span>
-            <img src="imgs/avatar.png" alt="" />
+            <img loading="lazy" src="imgs/avatar.png" alt="" />
           </div>
         </div>
         <!-- End Head -->
@@ -121,9 +157,8 @@
                 <h2 class="m-0">Welcome</h2>
                 <p class="c-gray mt-5 fs-14">Elibrahimy</p>
               </div>
-              <!-- <img src="./imgs/welcome.png" alt=""> -->
             </div>
-            <img src="imgs/avatar.png" alt="" class="avatar" />
+            <img loading="lazy" src="imgs/avatar.png" alt="" class="avatar" />
             <div class="body txt-c d-flex p-20 mt-20 mb-20 block-mobile">
               <div>
                 Ibrahim.A
@@ -251,7 +286,7 @@
           <div class="latest-news p-20 bg-white rad-10">
             <h2 class="mt-0 mb-20">Latest News</h2>
             <div class="news-row d-flex align-center txt-c-mobile">
-              <img class="rad-6" src="imgs/news-01.png" alt="" />
+              <img loading="lazy" class="rad-6" src="imgs/news/create-sass-section.png" alt="" />
               <div class="info">
                 <h3 class="mb-5 mt-0">Created SASS Section</h3>
                 <p class="m-0 fs-12 c-gray">New SASS Examples & Tutorials</p>
@@ -259,7 +294,7 @@
               <span class="btn-shape bg-eee fs-10 label">3 Days Ago</span>
             </div>
             <div class="news-row d-flex align-center txt-c-mobile">
-              <img class="rad-6" src="imgs/news-02.png" alt="" />
+              <img loading="lazy" class="rad-6" src="imgs/news/changed-the-design.png" alt="" />
               <div class="info">
                 <h3 class="mb-5 mt-0">Changed The Design</h3>
                 <p class="m-0 fs-12 c-gray">A Brand New Website Design</p>
@@ -267,7 +302,7 @@
               <span class="btn-shape bg-eee fs-10 label">5 Days Ago</span>
             </div>
             <div class="news-row d-flex align-center txt-c-mobile">
-              <img class="rad-6" src="imgs/news-03.png" alt="" />
+              <img loading="lazy" class="rad-6" src="imgs/news/team-increased.png" alt="" />
               <div class="info">
                 <h3 class="mb-5 mt-0">Team Increased</h3>
                 <p class="m-0 fs-12 c-gray">3 Developers Joined The Team</p>
@@ -275,7 +310,7 @@
               <span class="btn-shape bg-eee fs-10 label">7 Days Ago</span>
             </div>
             <div class="news-row d-flex align-center txt-c-mobile">
-              <img class="rad-6" src="imgs/news-04.png" alt="" />
+              <img loading="lazy" class="rad-6" src="imgs/news/added-payment-gateway.png" alt="" />
               <div class="info">
                 <h3 class="mb-5 mt-0">Added Payment Gateway</h3>
                 <p class="m-0 fs-12 c-gray">Many New Payment Gateways Added</p>
@@ -370,7 +405,7 @@
             <ul>
               <li class="between-flex pb-10 mb-10">
                 <div class="d-flex align-center">
-                  <img class="mr-10" src="imgs/pdf.svg" />
+                  <img loading="lazy" class="mr-10" src="imgs/pdf.svg" alt=""/>
                   <div>
                     <span class="d-block">my-file.pdf</span>
                     <span class="fs-14 c-gray">Elzero</span>
@@ -380,7 +415,7 @@
               </li>
               <li class="between-flex pb-10 mb-10">
                 <div class="d-flex align-center">
-                  <img class="mr-10" src="imgs/avi.svg" />
+                  <img loading="lazy" class="mr-10" src="imgs/avi.svg" alt=""/>
                   <div>
                     <span class="d-block">my-video-file.avi</span>
                     <span class="fs-14 c-gray">Admin</span>
@@ -390,7 +425,7 @@
               </li>
               <li class="between-flex pb-10 mb-10">
                 <div class="d-flex align-center">
-                  <img class="mr-10" src="imgs/psd.svg" />
+                  <img loading="lazy" class="mr-10" src="imgs/psd.svg" alt=""/>
                   <div>
                     <span class="d-block">my-PSD-file.psd</span>
                     <span class="fs-14 c-gray">Osama</span>
@@ -400,7 +435,7 @@
               </li>
               <li class="between-flex pb-10 mb-10">
                 <div class="d-flex align-center">
-                  <img class="mr-10" src="imgs/zip.svg" />
+                  <img loading="lazy" class="mr-10" src="imgs/zip.svg" alt=""/>
                   <div>
                     <span class="d-block">my-zip-file.zip</span>
                     <span class="fs-14 c-gray">User</span>
@@ -410,7 +445,7 @@
               </li>
               <li class="between-flex pb-10 mb-10">
                 <div class="d-flex align-center">
-                  <img class="mr-10" src="imgs/dll.svg" />
+                  <img loading="lazy" class="mr-10" src="imgs/dll.svg" alt=""/>
                   <div>
                     <span class="d-block">my-DLL-file.dll</span>
                     <span class="fs-14 c-gray">Admin</span>
@@ -420,7 +455,7 @@
               </li>
               <li class="between-flex pb-10 mb-10">
                 <div class="d-flex align-center">
-                  <img class="mr-10" src="imgs/eps.svg" />
+                  <img loading="lazy" class="mr-10" src="imgs/eps.svg" alt=""/>
                   <div>
                     <span class="d-block">my-EPS-file.eps</span>
                     <span class="fs-14 c-gray">Designer</span>
@@ -449,7 +484,7 @@
                 Finish The Project & Get Money
               </li>
             </ul>
-            <img class="launch-icon hide-mobile" src="imgs/project.png" />
+            <img loading="lazy" class="launch-icon hide-mobile" src="imgs/project.png" alt="" />
           </div>
           <!-- End Last Project Progress Widget -->
           <!-- Start Reminders Widget -->
@@ -493,7 +528,7 @@
           <div class="latest-post p-20 bg-white rad-10 p-relative">
             <h2 class="mt-0 mb-20">latest Post</h2>
             <div class="top d-flex align-center">
-              <img class="avatar mr-15" src="imgs/avatar.png" alt="" />
+              <img loading="lazy" class="avatar mr-15" src="imgs/avatar.png" alt="" />
               <div class="info">
                 <p class="mt-0 mb-5 fw-bold">El-Ibrahimy</p>
                 <span class="c-gray">About 3 Hours Ago</span>
@@ -566,10 +601,10 @@
                   <td>Ministry</td>
                   <td>$5300</td>
                   <td>
-                    <img src="imgs/team-01.png" alt="" />
-                    <img src="imgs/team-02.png" alt="" />
-                    <img src="imgs/team-03.png" alt="" />
-                    <img src="imgs/team-04.png" alt="" />
+                    <img loading="lazy" src="imgs/team/omar-mohamed.png" alt="" />
+                    <img loading="lazy" src="imgs/team/nourhan-saeed.png" alt="" />
+                    <img loading="lazy" src="imgs/team/ahmed-ali.png" alt="" />
+                    <img loading="lazy" src="imgs/team/shaheinaz-mumdouh.png" alt="" />
                   </td>
                   <td>
                     <span class="label fs-14 bg-orange c-white btn-shape"
@@ -583,9 +618,9 @@
                   <td>El-Ibrahimy Company</td>
                   <td>$1500</td>
                   <td>
-                    <img src="imgs/team-01.png" alt="" />
-                    <img src="imgs/team-03.png" alt="" />
-                    <img src="imgs/team-04.png" alt="" />
+                    <img loading="lazy" src="imgs/team/omar-mohamed.png" alt="" />
+                    <img loading="lazy" src="imgs/team/ahmed-ali.png" alt="" />
+                    <img loading="lazy" src="imgs/team/shaheinaz-mumdouh.png" alt="" />
                   </td>
                   <td>
                     <span class="label fs-14 bg-blue c-white btn-shape"
@@ -599,8 +634,8 @@
                   <td>Bouba</td>
                   <td>$800</td>
                   <td>
-                    <img src="imgs/team-02.png" alt="" />
-                    <img src="imgs/team-03.png" alt="" />
+                    <img loading="lazy" src="imgs/team/nourhan-saeed.png" alt="" />
+                    <img loading="lazy" src="imgs/team/ahmed-ali.png" alt="" />
                   </td>
                   <td>
                     <span class="label fs-14 bg-green c-white btn-shape"
@@ -614,8 +649,8 @@
                   <td>Mahmoud</td>
                   <td>$600</td>
                   <td>
-                    <img src="imgs/team-01.png" alt="" />
-                    <img src="imgs/team-02.png" alt="" />
+                    <img loading="lazy" src="imgs/team/omar-mohamed.png" alt="" />
+                    <img loading="lazy" src="imgs/team/nourhan-saeed.png" alt="" />
                   </td>
                   <td>
                     <span class="label fs-14 bg-green c-white btn-shape"
@@ -629,8 +664,8 @@
                   <td>Sayed</td>
                   <td>$300</td>
                   <td>
-                    <img src="imgs/team-01.png" alt="" />
-                    <img src="imgs/team-04.png" alt="" />
+                    <img loading="lazy" src="imgs/team/omar-mohamed.png" alt="" />
+                    <img loading="lazy" src="imgs/team/shaheinaz-mumdouh.png" alt="" />
                   </td>
                   <td>
                     <span class="label fs-14 bg-red c-white btn-shape"
@@ -644,10 +679,23 @@
                   <td>Arena Company</td>
                   <td>$2600</td>
                   <td>
-                    <img src="imgs/team-01.png" alt="" />
-                    <img src="imgs/team-02.png" alt="" />
-                    <img src="imgs/team-05.png" alt="" />
-                    <img src="imgs/team-04.png" alt="" />
+                    <img loading="lazy" src="imgs/team/omar-mohamed.png" alt="" />
+                    <img loading="lazy" src="imgs/team/nourhan-saeed.png" alt="" />
+                    <img loading="lazy" src="imgs/team/wafaa-ahmed.png" alt="" />
+                    <img loading="lazy" src="imgs/team/shaheinaz-mumdouh.png" alt="" />
+>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Arena Application</td>
+                  <td>01 Mar 2021</td>
+                  <td>Arena Company</td>
+                  <td>$2600</td>
+                  <td>
+                    <img loading="lazy" src="imgs/team/omar-mohamed.png" alt="" />
+                    <img loading="lazy" src="imgs/team/nourhan-saeed.png" alt="" />
+                    <img loading="lazy" src="imgs/team/wafaa-ahmed.png" alt="" />
+                    <img loading="lazy" src="imgs/team/shaheinaz-mumdouh.png" alt="" />
                   </td>
                   <td>
                     <span class="label fs-14 bg-green c-white btn-shape"
@@ -660,7 +708,7 @@
           </div>
         </div>
         <!-- End Projects Table -->
-      </div>
+      </main>
     </div>
   </body>
 </html>
